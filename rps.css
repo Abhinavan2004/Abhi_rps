@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.heading {
+    background-color: rgb(8, 8, 61);
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    height: 170px;
+    width: 180px;
+}
+
+img:hover {
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.scorer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 120px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.yours,
+.Computers {
+    display: grid;
+    text-align: center;
+    height: 80%;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#y,
+#c {
+    font-size: 3rem;
+}
+
+#write {
+    font-size: 1.3rem;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    border-radius: 30px;
+    background-color: rgb(243, 111, 137);
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.reset {
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 90%;
+    background-color: chocolate;
+}
